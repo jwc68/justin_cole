@@ -16,15 +16,23 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-				<p>I have been working on creating interactive spectra for all viable objects in the LEGA-C survey like the one shown below.</p>
-				<h2>Interactions:</h2>
-				<p>Clicking on a label in the legend of the figure will mute, or 'hide', the data it describes.</p>
-				<p>Clicking and dragging to draw a box around data will zoom into the data you have drawn a box around. </p>
-				<p>In the top-right portion of the figure, there are additional tools such as a reset button and a "Pan Tool" that will let you pan the data horizontally.</p>
-				<p>Finally, the buttons under the figure will toggle the emissions-/absorption-line bands and labels on/off. </p>
 				<center>
+					<p>I have been working on creating interactive spectra for all viable objects in the LEGA-C survey like the one shown below.</p>
+					<h2>Interactions:</h2>
+					<p>Clicking on a label in the legend of the figure will mute, or 'hide', the data it describes.</p>
+					<p>Clicking and dragging to draw a box around data will zoom into the data you have drawn a box around. </p>
+					<p>In the top-right portion of the figure, there are additional tools such as a reset button and a "Pan Tool" that will let you pan the data horizontally.</p>
+					<p>Finally, the buttons under the figure will toggle the emissions-/absorption-line bands and labels on/off. </p>
 					<iframe src="interactive_spectrum_M9_ID_225103.html"
-						style="height: 500px; width: 1200px; top: 50px; position: center center"></iframe>
+						style="position: center center"></iframe>
+					<p>Another example of interactive data: multi-panel connections. </p>
+					<p>Tools added to this figure are the "Wheel Zoom", which allows you to zoom into a panel centered on your mouse position,
+						the "Lasso Select" tool, which allows you to draw any shape around the data, and the Hover tool which will provide 
+						a basic description of the objects under your cursor.</p>
+					<p>Similar to the spectra above, clicking on a legend item will mute the data described within that specific panel.
+					However, selecting data using either Box Select or Lasso Select will show only the selected data across all panels.</p>
+					<iframe src="Portal_Page_plot.html"
+						style="position: center center"></iframe>
 				</center>
 				<p>These figures were created using the <a href="https://bokeh.org/">Bokeh</a> package from Python v3.7. 
 			</div>
